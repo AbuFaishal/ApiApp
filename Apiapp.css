@@ -1,0 +1,47 @@
+/*-----CryptoApp css----*/
+.srchbar{
+    width:50%;
+}
+/*----pagination css----*/
+
+.pagination{
+    width:fit-content;
+    margin:0px auto;
+    font-size:20px;
+}
+.pagination li{
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.pagination li a{
+    text-decoration :none;
+}
+.pagination button{
+    border:none;
+    outline:none;
+    background: none;
+}
+.pagination button:first-child:hover,.pagination button:last-child:hover{
+    color:red;
+}
+.currp a{
+    color:red;
+    font-weight: bold;
+}
+/*-----media query----*/
+@media screen and (max-width:500px){
+    .headingcrypto{
+        font-size:20px;
+    }
+    .table th{
+        font-size: 17px;
+    }
+    .table td{
+        font-size: 14px;
+    }
+    
+}
